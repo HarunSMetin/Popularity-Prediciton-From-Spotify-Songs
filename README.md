@@ -1,29 +1,26 @@
-Popularity Prediction of Spotify Songs
+#Popularity Prediction of Spotify Songs
 
 This repository contains code and data for predicting the popularity of songs on Spotify. The project uses machine learning algorithms to predict the popularity of songs based on various features such as the song's tempo, danceability, energy, and valence.
 Installation
 
 To use this code, you will need to have Python 3 and several libraries installed. You can install the required libraries by running the following command:
 
-sh
-
 pip install -r requirements.txt
 
-Usage
+##Usage
 
 You can run the main.py file to train and test the machine learning models on the dataset. The file takes several command-line arguments, including the path to the dataset file and the name of the target feature. You can run the following command to see a list of available command-line arguments:
 
-sh
-
 python main.py --help
 
-Dataset
+##Dataset
 
 The dataset used in this project is a modified version of the Spotify Million Playlist Dataset, which contains metadata for over a million Spotify playlists. The dataset used in this project includes only songs that have been played at least 100 times in Spotify, and it contains 16,550 songs and 18 features.
 License
 
 The code in this repository is licensed under the MIT license. The dataset used in this project is subject to the license terms of the Spotify Million Playlist Dataset.
-Acknowledgments
+
+##Acknowledgments
 
 The code in this repository is based on the work of RexhaMuharrem and JRobertEdwards. Special thanks to them for their contributions.
 In this project I aimed to predict Popularity from Spotify Songs Features.
