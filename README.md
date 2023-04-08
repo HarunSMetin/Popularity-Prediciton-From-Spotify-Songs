@@ -1,10 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Popularity Prediction of Spotify Songs</title>
-</head>
-<body>
 	<h1>Popularity Prediction of Spotify Songs</h1>
 
 	<p>This repository contains code and data for predicting the popularity of songs on Spotify. The project uses machine learning algorithms to predict the popularity of songs based on various features such as the song's tempo, danceability, energy, and valence.</p>
@@ -34,8 +28,6 @@
 	<p>The code in this repository is based on the work of <a href="https://github.com/RexhaMuharrem">RexhaMuharrem</a> and <a href="https://github.com/JRobertEdwards">JRobertEdwards</a>. Special thanks to them for their contributions.</p>
 
 	<p>If you have any questions or comments, please feel free to create an issue or pull request in this repository.</p>
-</body>
-</html>
 
 
 In this project I aimed to predict Popularity from Spotify Songs Features.
