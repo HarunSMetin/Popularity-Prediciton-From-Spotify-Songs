@@ -1,30 +1,39 @@
-#Popularity Prediction of Spotify Songs
 
-This repository contains code and data for predicting the popularity of songs on Spotify. The project uses machine learning algorithms to predict the popularity of songs based on various features such as the song's tempo, danceability, energy, and valence.
-Installation
+<body>
+	<h1>Popularity Prediction of Spotify Songs</h1>
+</body>
+	<p>This repository contains code and data for predicting the popularity of songs on Spotify. The project uses machine learning algorithms to predict the popularity of songs based on various features such as the song's tempo, danceability, energy, and valence.</p>
+<body>
+	<h2>Installation</h2>
+</body>
+	<p>To use this code, you will need to have Python 3 and several libraries installed. You can install the required libraries by running the following command:</p>
+	<pre><code>pip install -r requirements.txt</code></pre>
+  
+<body>
+	<h2>Usage</h2>
+</body>
+	<p>You can run the <code>main.py</code> file to train and test the machine learning models on the dataset. The file takes several command-line arguments, including the path to the dataset file and the name of the target feature. You can run the following command to see a list of available command-line arguments:</p>
+	<pre><code>python main.py --help</code></pre>
 
-To use this code, you will need to have Python 3 and several libraries installed. You can install the required libraries by running the following command:
+<body>
+	<h2>Dataset</h2>
 
-pip install -r requirements.txt
+</body>
+	<p>The dataset used in this project is a modified version of the <a href="https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge">Spotify Million Playlist Dataset</a>, which contains metadata for over a million Spotify playlists. The dataset used in this project includes only songs that have been played at least 100 times in Spotify, and it contains 16,550 songs and 18 features.</p>
 
-##Usage
+<body>
+	<h2>License</h2>
 
-You can run the main.py file to train and test the machine learning models on the dataset. The file takes several command-line arguments, including the path to the dataset file and the name of the target feature. You can run the following command to see a list of available command-line arguments:
+</body>
+<body>
+	<p>The code in this repository is licensed under the MIT license. The dataset used in this project is subject to the license terms of the <a href="https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge">Spotify Million Playlist Dataset</a>.</p>
+</body>
+	<p>If you have any questions or comments, please feel free to create an issue or pull request in this repository.</p>
 
-python main.py --help
+<body>
+	<h2>Additional Explanation</h2>
 
-##Dataset
-
-The dataset used in this project is a modified version of the Spotify Million Playlist Dataset, which contains metadata for over a million Spotify playlists. The dataset used in this project includes only songs that have been played at least 100 times in Spotify, and it contains 16,550 songs and 18 features.
-License
-
-The code in this repository is licensed under the MIT license. The dataset used in this project is subject to the license terms of the Spotify Million Playlist Dataset.
-
-##Acknowledgments
-
-The code in this repository is based on the work of RexhaMuharrem and JRobertEdwards. Special thanks to them for their contributions.
-In this project I aimed to predict Popularity from Spotify Songs Features.
-
+</body>
 I used Regression models to get result between 1-100,
 then I change the Popularity values to Labels like 
   - 0-25 ==> 1. class
